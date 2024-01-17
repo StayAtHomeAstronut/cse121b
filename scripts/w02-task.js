@@ -4,14 +4,14 @@
 
 /* Step 2 - Variables */
 const fullName = 'Sean Porter';
-var currentYear = new Date().getFullYear();
+let currentYear = new Date().getFullYear();
 const profilePicture = "images/beach.jpg";
 
 /* Step 3 - Element Variables */
 
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
-const yearElement = document.querySelector('#year');
+let yearElement = document.querySelector('#year');
 
 const imageElement = document.querySelector('picture img');
 if (imageElement) {

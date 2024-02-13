@@ -1,4 +1,4 @@
-
+//import important stuff
 import { getWeather } from "../scripts/weather.js";
 import { ICON_MAP } from "../scripts/iconMap.js"
 
